@@ -1,0 +1,13 @@
+name: aid-hdi
+title: aid-hdi
+username:
+account: pmalo46
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3381042
+bundleId: 3985367
+url: https://pmalo46.shinyapps.io/aid-hdi/
+when: 1607919277.94036
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: data_prep.ipynb|Final_HDI_AID.csv|HDI.csv|hdi_aid.Rmd|person.csv|us_foreign_aid_country.csv|.ipynb_checkpoints/data_prep-checkpoint.ipynb

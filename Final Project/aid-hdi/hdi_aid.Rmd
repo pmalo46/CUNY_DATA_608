@@ -1,0 +1,26 @@
+---
+title: "hdi_aid"
+author: "Patrick Maloney"
+date: "12/8/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+```{r}
+library(tidyverse)
+library(plotly)
+df <- read_csv('Final_HDI_AID.csv')
+head(df)
+
+df <- df %>% group_by(Country) %>% arrange(Country, Year)
+head(df)
+
+```
+
+```{r}
+
+```
